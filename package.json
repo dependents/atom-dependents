@@ -1,0 +1,27 @@
+{
+  "name": "atom-dependents",
+  "main": "./lib/atom-dependents",
+  "version": "0.0.0",
+  "description": "Atom client for Dependents",
+  "keywords": [
+    "javascript",
+    "amd",
+    "es6",
+    "commonjs",
+    "sass",
+    "stylus",
+    "css",
+    "navigation",
+    "productivity"
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-dependents:toggle"
+  },
+  "repository": "https://github.com/atom/atom-dependents",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
