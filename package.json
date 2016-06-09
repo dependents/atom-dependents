@@ -1,6 +1,6 @@
 {
-  "name": "atom-dependents",
-  "main": "./lib/atom-dependents",
+  "name": "Dependents",
+  "main": "./lib/dependents",
   "version": "0.0.0",
   "description": "Atom client for Dependents",
   "keywords": [
@@ -15,13 +15,21 @@
     "productivity"
   ],
   "activationCommands": {
-    "atom-workspace": "atom-dependents:toggle"
+    "atom-workspace": [
+      "dependents:findDependents",
+      "dependents:jumpToDependency",
+      "dependents:findDrivers",
+      "dependents:getTree",
+      "dependents:copyPath"
+    ]
   },
-  "repository": "https://github.com/atom/atom-dependents",
+  "repository": "https://github.com/dependents/atom-dependents",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "atom-space-pen-views": "~2.2.0",
+    "dependents-editor-backend": "~1.8.0"
   }
 }

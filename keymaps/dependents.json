@@ -1,0 +1,7 @@
+{
+  "atom-workspace": {
+    "alt-cmd-up": "dependents:findDependents",
+    "alt-cmd-right": "dependents:jumpToDependency",
+    "cmd-shift-c": "dependents:copyPath"
+  }
+}

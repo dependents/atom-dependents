@@ -1,0 +1,63 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Dependents",
+        "submenu": [
+          {
+            "label": "Find Dependents",
+            "command": "dependents:findDependents"
+          },
+          {
+            "label": "Jump to Dependency",
+            "command": "dependents:jumpToDependency"
+          },
+          {
+            "label": "Find Relevant Entry Points",
+            "command": "dependents:findDrivers"
+          },
+          {
+            "label": "View Tree",
+            "command": "dependents:getTree"
+          },
+          {
+            "label": "Copy Path",
+            "command": "dependents:copyPath"
+          }
+        ]
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Dependents",
+          "submenu": [
+            {
+              "label": "Find Dependents",
+              "command": "dependents:findDependents"
+            },
+            {
+              "label": "Jump to Dependency",
+              "command": "dependents:jumpToDependency"
+            },
+            {
+              "label": "Find Relevant Entry Points",
+              "command": "dependents:findDrivers"
+            },
+            {
+              "label": "View Tree",
+              "command": "dependents:getTree"
+            },
+            {
+              "label": "Copy Path",
+              "command": "dependents:copyPath"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
