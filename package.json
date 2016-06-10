@@ -1,7 +1,7 @@
 {
   "name": "Dependents",
   "main": "./lib/dependents",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Atom client for Dependents",
   "keywords": [
     "javascript",
@@ -30,6 +30,6 @@
   },
   "dependencies": {
     "atom-space-pen-views": "~2.2.0",
-    "dependents-editor-backend": "~1.8.0"
+    "dependents-editor-backend": "~1.9.0"
   }
 }
