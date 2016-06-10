@@ -1,5 +1,5 @@
 {
-  "atom-workspace": {
+  "atom-workspace atom-text-editor:not([mini])": {
     "alt-cmd-up": "dependents:findDependents",
     "alt-cmd-right": "dependents:jumpToDependency",
     "cmd-shift-c": "dependents:copyPath"
