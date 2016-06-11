@@ -1,7 +1,7 @@
 {
   "name": "Dependents",
   "main": "./lib/dependents",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Atom client for Dependents",
   "keywords": [
     "javascript",
