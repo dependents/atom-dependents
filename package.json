@@ -12,17 +12,12 @@
     "stylus",
     "css",
     "navigation",
-    "productivity"
+    "productivity",
+    "dependency tree",
+    "dependents",
+    "dependencies",
+    "ide"
   ],
-  "activationCommands": {
-    "atom-workspace": [
-      "dependents:findDependents",
-      "dependents:jumpToDependency",
-      "dependents:findDrivers",
-      "dependents:getTree",
-      "dependents:copyPath"
-    ]
-  },
   "repository": "https://github.com/dependents/atom-dependents",
   "license": "MIT",
   "engines": {
@@ -30,6 +25,6 @@
   },
   "dependencies": {
     "atom-space-pen-views": "~2.2.0",
-    "dependents-editor-backend": "~1.9.0"
+    "dependents-editor-backend": "~1.10.0"
   }
 }
