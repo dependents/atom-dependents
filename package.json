@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "atom-space-pen-views": "~2.2.0",
-    "dependents-editor-backend": "~1.10.0"
+    "dependents-editor-backend": "~1.11.1",
+    "object-assign": "~4.1.0"
   }
 }
