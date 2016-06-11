@@ -23,9 +23,23 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "scripts": {
+    "test": "jscs lib"
+  },
   "dependencies": {
     "atom-space-pen-views": "~2.2.0",
     "dependents-editor-backend": "~1.11.1",
     "object-assign": "~4.1.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "devDependencies": {
+    "jscs": "~2.11.0",
+    "jscs-preset-mrjoelkemp": "~1.0.0"
   }
 }
