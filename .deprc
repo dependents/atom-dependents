@@ -1,3 +1,7 @@
 {
-  "root": "./"
+  "root": "./",
+  "exclude": [
+    ".git",
+    "node_modules"
+  ]
 }
