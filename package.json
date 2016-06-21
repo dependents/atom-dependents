@@ -16,7 +16,9 @@
     "dependency tree",
     "dependents",
     "dependencies",
-    "ide"
+    "ide",
+    "traversal",
+    "codebase"
   ],
   "repository": "https://github.com/dependents/atom-dependents",
   "license": "MIT",

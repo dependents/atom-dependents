@@ -43,3 +43,10 @@ You can find other features of this plugin from:
 Packages -> Dependents
 
 Or by right clicking on a file and going to the Dependents menu
+
+### Keyboard Shortcuts
+
+* Jump to Dependency: `Alt + Click` (or `CMD + Alt + Right Arrow`) on the import name.
+* Find Dependents: `CMD + Alt + Up Arrow`
+
+Use `Ctrl` instead of `CMD` for Windows/Linux.
