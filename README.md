@@ -5,6 +5,26 @@
 * Supports JavaScript (AMD, CommonJS, ES6)
 * Supports CSS (Sass, Stylus)
 
+### Requirements
+
+* You need Node.js v0.10 or above
+* If you'd like to use the `View Tree -> As Image` feature, you need Graphviz installed.
+
+##### Installing Graphviz
+
+###### Mac OS X
+
+	$ sudo port install graphviz
+
+OR
+
+	$ brew install graphviz
+
+###### Ubuntu
+
+	$ sudo apt-get install graphviz
+
+
 ### Configuring settings
 
 These can be specified by creating a `.deprc` file with the following
