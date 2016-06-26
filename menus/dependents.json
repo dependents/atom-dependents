@@ -18,7 +18,16 @@
           },
           {
             "label": "View Tree",
-            "command": "dependents:getTree"
+            "submenu": [
+              {
+                "label": "As JSON",
+                "command": "dependents:getTree"
+              },
+              {
+                "label": "As Image",
+                "command": "dependents:getTreePic"
+              }
+            ]
           },
           {
             "label": "Copy Path",
@@ -49,7 +58,16 @@
             },
             {
               "label": "View Tree",
-              "command": "dependents:getTree"
+              "submenu": [
+                {
+                  "label": "As JSON",
+                  "command": "dependents:getTree"
+                },
+                {
+                  "label": "As Image",
+                  "command": "dependents:getTreePic"
+                }
+              ]
             },
             {
               "label": "Copy Path",
