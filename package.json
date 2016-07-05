@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "atom-space-pen-views": "~2.2.0",
-    "dependents-editor-backend": "~1.13.1",
+    "dependents-editor-backend": "~1.13.2",
     "jsesc": "~2.2.0",
     "object-assign": "~4.1.0"
   },
