@@ -1,6 +1,8 @@
 # Dependents
 
-> Navigate front-end codebases
+> Navigate front-end codebases in Atom
+
+[http://getdependents.com/](http://getdependents.com/)
 
 * Supports JavaScript (AMD, CommonJS, ES6)
 * Supports CSS (Sass, Stylus)
