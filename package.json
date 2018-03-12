@@ -30,9 +30,9 @@
   },
   "dependencies": {
     "atom-space-pen-views": "~2.2.0",
-    "dependents-editor-backend": "~1.15.1",
-    "jsesc": "~2.2.0",
-    "object-assign": "~4.1.0"
+    "dependents-editor-backend": "^2.0.0",
+    "jsesc": "~2.5.1",
+    "object-assign": "~4.1.1"
   },
   "consumedServices": {
     "status-bar": {
